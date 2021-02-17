@@ -1,0 +1,402 @@
+#title {
+  background-image: url("title-image.jpg");
+  padding: 1% 10% 15%;
+  font-family: 'Montserrat-black';
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.title-h-class {
+  font-size: 3rem;
+  padding-top: 3rem;
+  font-weight: lighter;
+  color: #0f3057;
+}
+
+.title-p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  color: #e8e8e8;
+}
+
+.hr {
+  border-style: none none dotted;
+  width: 8%;
+  border-width: 8px;
+  color: #d9ecf2;
+}
+
+.button-title {
+  margin-top: 3rem;
+  width: 25%;
+  height: 20%;
+  font-size: 1.5rem;
+  background-color: #16213e;
+  color: white;
+  border-style: none;
+  border-radius: 12px;
+}
+
+.button-title:hover {
+  background-color: #ff7e67;
+}
+
+.info-about-us {
+  font-family: 'Ubuntu';
+  background-color: #16213e;
+  color: white;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.info-h-class {
+  padding: 1% 15%;
+  font-size: 2.2rem;
+}
+
+.info-p-class {
+  padding: 0% 25% 8%;
+  font-size: 1rem;
+}
+
+.info-button-class {
+  width: 30%;
+  height: 10%;
+  color: white;
+  font-size: 1.4rem;
+  background-color: #ee6f57;
+  border-style: none;
+  border-radius: 12px;
+  margin-bottom: 20%;
+}
+
+.info-button-class:hover {
+  background-color: #91d18b;
+}
+
+.image3 {
+  width: 80%;
+  position: absolute;
+  margin-left: 5%;
+}
+
+.image1 {
+  width: 90%;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.image4 {
+  position: absolute;
+  margin-top: 60%;
+  width: 50%;
+  right: 75%;
+}
+
+.image2 {
+  position: absolute;
+  margin-top: 64.5%;
+  right: 79.5%;
+}
+
+@media (max-width: 1220px) {
+  .image2 {
+    display: none;
+  }
+
+  .image4 {
+    display: none;
+  }
+}
+
+#testimonials {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: url("testimonial-image.jpg");
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #206a5d;
+}
+
+.white-bg {
+  position: absolute;
+  width: 40.5%;
+  height: 40rem;
+  background-color: white;
+  margin-left: 29.8%;
+}
+
+.testimonial-h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat-black'
+}
+
+.testimonial-text {
+  position: relative;
+  padding: 3%;
+  color: #005086;
+  font-size: 1.5rem;
+}
+
+.testimonial-text:hover {
+  color: #1d2d50;
+}
+
+.testimonial-image {
+  position: relative;
+  padding-top: 0.2%;
+  width: 40%;
+  height: 25rem;
+}
+
+.button-carousel {
+  position: relative;
+  width: 15%;
+  height: 3rem;
+  color: white;
+  font-size: 1.4rem;
+  background-color: #ee6f57;
+  border-style: none;
+  border-radius: 12px;
+  margin-bottom: 5%;
+}
+
+.button-carousel:hover {
+  background-color: #1d2d50;
+}
+
+#news {
+  padding: 5% 10% 2% 10%;
+  font-family: 'Montserrat-black';
+  background-color: #f6f5f5;
+}
+
+.hr-news {
+  margin: 10% 0%;
+  border-style: none none dotted;
+  width: 40%;
+  border-width: 8px;
+  color: #ee6f57;
+}
+
+.bg-white-news {
+  position: absolute;
+  width: 92%;
+  height: 25rem;
+  background-color: white;
+  margin-left: 29.8%;
+  margin-top: 8%;
+  margin-left: 0%;
+  box-shadow: 5px 10px #dddddd;
+}
+
+.news-row {
+  text-align: center;
+}
+
+.a-news {
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.image-news {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  margin: 10% auto 10% 2%;
+}
+
+.button-news {
+  margin: 10% 42.5%;
+  width: 15%;
+  height: 3rem;
+  color: white;
+  font-size: 1.4rem;
+  background-color: #519872;
+  border-style: none;
+  border-radius: 12px;
+  margin-bottom: 5%;
+}
+
+.button-news:hover {
+  background-color: #1d2d50;
+}
+
+@media (max-width: 990px) {
+  .image-news {
+    margin: 10% 5% 5% 0%;
+  }
+
+  .button-news {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 990px) {
+  .button-title {
+    font-size: 130%;
+    width: 40%;
+  }
+
+  .testimonial-text {
+    font-size: 80%;
+  }
+
+  .white-bg {
+    width: 65%;
+    margin-left: 17.5%;
+  }
+
+  .testimonial-image {
+    width: 63%;
+  }
+
+  .button-carousel {
+    width: 30%;
+  }
+
+  .button-news {
+    margin-left: 30%;
+    font-size: 130%;
+    width: 40%;
+  }
+}
+
+#register {
+font-family: "Ubuntu-black";
+  text-align: center;
+  padding: 8% 0%;
+  color:white;
+  background-color: #ee6f57;
+}
+
+.button-registration {
+  width: 30%;
+  height: 3rem;
+  margin-top: 3%;
+  color: white;
+  font-size: 1.3rem;
+  background-color: #1d2d50;
+  border-style: none;
+  border-radius: 12px;
+}
+
+.button-registration:hover {
+  background-color: #133b5c;
+}
+
+#contact {
+  font-family: "Ubuntu-black";
+  color: white;
+  width: 100%;
+  height: 35rem;
+}
+
+.registration {
+  width: 100%;
+  height: 35rem;
+  position: absolute;
+}
+
+.container-form {
+position: relative;
+height: 35rem;
+padding: 3rem 0rem;
+}
+
+.h-form {
+  font-size: 2.7rem;
+  padding-left: 4rem;
+}
+
+.form {
+  padding-left: 4rem;
+}
+
+.form-content {
+  padding: 1rem 0rem;
+}
+
+input {
+  width: 90%;
+  height: 3rem;
+  margin-top: 3%;
+  color: white;
+  background-color: #07689f;
+  font-size: 1.3rem;
+  border-style: none;
+  border-radius: 12px;
+}
+
+.textarea {
+  width: 90%;
+  color: white;
+  background-color: #07689f;
+  font-size: 1.3rem;
+  border-style: none;
+  border-radius: 12px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.button-form {
+  width: 40%;
+  height: 4rem;
+  color: white;
+  background-color: #f6830f;
+  font-size: 1.3rem;
+  border-style: none;
+  border-radius: 50px 50px 50px;
+  margin: 9rem 7rem 1rem;
+}
+
+.button-form:hover {
+  background-color: #006a71;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    height: 50rem;
+  }
+  .registration {
+    height: 50rem;
+  }
+  .container-form {
+    height: 50rem;
+  }
+  .button-form {
+    margin:15% 30% 15%;
+  }
+}
+
+#footer {
+  font-family: "Ubuntu-black";
+  padding: 5rem 4rem;
+  background-color: #1d2d50;
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.footer-logo {
+  background-color: white;
+  border-radius: 30px 50px 30px;
+  margin-bottom: 2rem;
+}
+
+.h-footer {
+  font-size: 2.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2.7rem;
+}
+
+.copyright {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
